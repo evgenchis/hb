@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
     <style>
-        #map { height: 70vh; width: 100%; }
+        #map { height: 90vh; width: 100%; }
         #sendPolygonButton { 
             width: 100%; 
             padding: 20px; 
@@ -26,8 +26,8 @@
 </head>
 <body>
 
-<div id="map"></div>
 <button id="sendPolygonButton">Отправить полигон</button>
+<div id="map"></div>
 
 <script>
     var map = L.map('map').setView([55.751244, 37.618423], 10);
